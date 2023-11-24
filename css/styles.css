@@ -8127,12 +8127,12 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: #B4CB92 !important;
+  background-color: #083132 !important;
 }
 
 .bg-secondary {
   --bs-bg-opacity: 1;
-  background-color: #48473D !important;
+  background-color: #00F4D7 !important;
 }
 
 .bg-success {
@@ -10908,13 +10908,13 @@ html {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #B4CB92;
+  color: #083132;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #B4CB92;
+  color: #083132;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -10936,11 +10936,11 @@ html {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #B4CB92;
+    background: #083132;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #B4CB92;
+    background: #083132;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;

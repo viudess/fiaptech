@@ -3,6 +3,7 @@
 */
 async function register() {
     // Pega os campos da tela de login (register.html)
+    const nomeField = document.getElementById('nome_field');
     const emailField = document.getElementById('email_field');
     const passwordField = document.getElementById('password_field');
 
@@ -14,8 +15,9 @@ async function register() {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
+                'nome': nomeField.value,
                 'email': emailField.value,
-                'password': passwordField.value, 
+                'password': passwordField.value
             }),
         });
 }

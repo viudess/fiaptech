@@ -7,7 +7,7 @@ const cors = require("cors");
 const authRouter = require("./routes/auth-routes");
 //middlewares - travas do meio de projeto e acesso
 //config
-const dbName = "fiaptechUsers";
+const dbName = "fiaptechProdutos";
 const port = 3000;
 const app = express();
 app.use(cors());
@@ -33,4 +33,3 @@ mongoose.connect(
     UseUnifiedTopology : true,
     serverSelectionTimeoutMS : 10000
     });
-
